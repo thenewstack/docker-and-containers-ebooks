@@ -12,7 +12,7 @@ Each of the chapters in this preview comes from a book in The New Stack's Docker
     
 **Book 2: Application Development & Microservices With Docker & Containers**
 
-* [Monolith to Microservices: Finding the Secret Sauce](MonolithToMicroservices.md), *by Vivek Juneja*
+* [From Monolith to Microservices: Finding the Secret Sauce](FromMonolithToMicroservices.md), *by Vivek Juneja*
 
 &nbsp;
 

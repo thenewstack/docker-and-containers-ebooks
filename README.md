@@ -20,7 +20,7 @@ The five-book series aims to map the vast and rapidly expanding oceans of the co
 
 This preview [contains sample chapters](CONTENTS.md) from across the series--three from the first book, and one each from the second and third. 
 
-We are hoping you’ll be so kind as to share your suggestions or feedback with us. Feel free to send us a pull request, or share them directly with us [by email](mailto:%20ebooks@thenewstack.io).
+We are hoping you’ll be so kind as to share your suggestions or feedback with us. Feel free to send us a pull request, or share them directly with us [by email](mailto:ebook-feedback@thenewstack.io).
 
 We would be remiss if we didn't thank our series sponsors: 
 
