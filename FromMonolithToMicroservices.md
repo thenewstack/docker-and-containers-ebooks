@@ -115,3 +115,6 @@ Co-existing monoliths and microservices require a comprehensive monitoring of pe
 The most challenging aspects of moving from monoliths to microservices are the organizational changes required, such as building services teams that own all aspects of their microservices. This requires creating multi-disciplinary units which include developers, testers and operations staff, among others. The idea is to embrace more collective code ownership and care for software craftsmanship.
 
 Most of the ideas shared in this article have either been practiced or have delivered results in organizations of all sizes. However, this is not a one-size-fits-all paradigm. Hence, it's important to keep an eye on evolving patterns and adoption war stories. As more organizations move from monoliths to microservices, we will have more to learn along our journey.
+
+---
+Copyright &copy; 2015, The New Stack. All rights reserved.

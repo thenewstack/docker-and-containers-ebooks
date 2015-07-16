@@ -73,3 +73,5 @@ Last year, the chief architect of [ING spoke at Dockercon Europe ](https://blog.
 
 By taking one or more of the approaches outlined in this article, enterprises new to the container game can take their first steps down the path of enlightenment, knowing that they’re following a trail that has been trod many times before.
 
+---
+Copyright &copy; 2015, The New Stack. All rights reserved.

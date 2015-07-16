@@ -51,3 +51,6 @@ In thinking about enterprise adoption of Docker or any other container technolog
 >We need to apply everything we’ve learned about navigating change and uncertainty, and step beyond the binary success/failure conceptual model of adoption. 
 
 In this way, containers are no different from DevOps, or Lean, or any other organizational transformation.
+
+---
+Copyright &copy; 2015, The New Stack. All rights reserved.

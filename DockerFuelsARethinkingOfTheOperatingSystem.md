@@ -98,3 +98,6 @@ Google, he said, is on the fence. “Google is smiling because they know how to 
 “Kubernetes will work with rkt and they’re working to make it work with any other container. But they want to make money on the public cloud; they want to run containers on the Google cloud. But they don’t mind giving away some of their innovation on orchestration.”
   
 Microsoft, while closely aligned with Docker, has an uphill battle ahead of it as it works to overcome incompatibilities between Windows and Linux. “In 24 months the dust will settle, and we’ll get to see who’s the winner,” Janakiram said. “Who’s still relevant in the market.”
+
+---
+Copyright &copy; 2015, The New Stack. All rights reserved.

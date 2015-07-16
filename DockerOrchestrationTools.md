@@ -196,3 +196,5 @@ Though Flocker is still evolving, it has set out to solve a key problem faced by
 ## Summary
 The Docker ecosystem is growing rapidly. From major infrastructure companies to PaaS vendors to early-stage startups, everyone is clamoring to stake out their place in the ecosystem. There are many contributors working on container orchestration tools, as these are essential for deploying real-world applications, and thus, driving the adoption of Docker. We attempted to highlight some of the key contributors building orchestration tools. By no means is this an exhaustive list, but it does cover the key players that are positively impacting the Docker ecosystem.
 
+---
+Copyright &copy; 2015, The New Stack. All rights reserved.
