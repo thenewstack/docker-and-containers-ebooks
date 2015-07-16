@@ -30,6 +30,6 @@ We're deeply grateful for their support for this project.
 
 Enjoy!
 
-The New Stack Staff
+Sam Charrington [\[t\]](http://twitter.com/samcharrington), Alex Williams [\[t\]](http://twitter.com/alexwilliams) & The New Stack staff
 
 
