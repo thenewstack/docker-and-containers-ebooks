@@ -26,7 +26,7 @@ Containers make many things possible, without necessarily accomplishing any of t
 
 Various answers to these questions have begun to emerge. Packaging tools such as Packer bridge configuration automation with immutable infrastructure. Cluster management systems such as Kubernetes layer replication, health maintenance, and network management on top of raw containers. Platform-as-a-Service offerings such as Cloud Foundry and OpenShift are embracing containers within their own architectural models. 
 
-![Percent of Organizations Planning to Address IT Needs](resource/CrossingTheOceanWithContainers/PercentOfOrganizationsPlanningToAddressNeeds_800.png)
+![Percent of Organizations Planning to Address IT Needs](resource/CrossingTheOceanWithContainers/PercentOfOrganizationsPlanningToAddressNeeds.png)
 
 These higher-order systems answer some of the initial questions that arise while trying to deploy containers. They also, though, raise new questions of their own. Now, instead of asking how to manage and compose containers, one has to ask how to manage and compose the container management, deployment, and operations toolchain.
 

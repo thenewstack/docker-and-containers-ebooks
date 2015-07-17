@@ -15,7 +15,7 @@ The idea of a minimalist operating system isn’t new. Stripped-down operating s
   
 This is leading to new thinking about operating systems. In this chapter we take a look at the major players and their vision for the future of the operating system.
 
-![Comparing Container Operating Systems](resource/DockerFuelsARethinkingOfTheOperatingSystem/ForMicroOperatingSystemsSizeMatters_800.png)
+![Comparing Container Operating Systems](resource/DockerFuelsARethinkingOfTheOperatingSystem/ForMicroOperatingSystemsSizeMatters.png)
 
 ## CoreOS
 Rivals give props to CoreOS for pioneering the micro OS even before Docker came on the scene. The company recently [added $12 million](http://thenewstack.io/coreos-tightens-fit-with-kubernetes-raises-12m-from-google-ventures/) to its coffers with investment from Google Ventures, and unveiled a technology called [Tectonic](http://tectonic.com/blog), combining its CoreOS portfolio and Kubernetes — Google’s open source project for managing containerized applications.
@@ -51,7 +51,7 @@ According to Kirkland, however, Docker and LXD are complementary technologies. H
   
 Canonical’s real motivation is control of the entire stack, said Janakiram MSV, principal analyst at Janakiram & Associates. “Snappy will be their CoreOS, and LXD will become an alternate native hypervisor,” he said. “Then they have more VM-like containers. They also have Juju Charms with its own orchestration and provisioning story for the lifecycle of containers.”
 
-![Comparing Container Operating Systems](resource/DockerFuelsARethinkingOfTheOperatingSystem/ComparingContainerOperatingSystems_800.png)
+![Comparing Container Operating Systems](resource/DockerFuelsARethinkingOfTheOperatingSystem/ComparingContainerOperatingSystems.png)
 
 ## VMware Photon
 The meteoric rise of Docker, itself essentially a virtualization technology, has caused many to anticipate the VMware response, even, if not especially, after the two companies [announced a partnership ](http://thenewstack.io/amid-container-vs-vm-hype-vmware-draws-docker-closer/)back in August of last year. Its first response finally came earlier this year, with the announcement of its lightweight OS Photon.

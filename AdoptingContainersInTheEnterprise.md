@@ -19,7 +19,7 @@ Specifically, enterprise development teams and IT organizations see in Docker an
 
 1. Collaboration: Development teams working on large projects have to coordinate software releases, a process that often takes a long time. Teams working on continuously maintained and developed legacy applications, for example, appreciate the ability of containers to help them synchronize software releases more easily.
 
-![Motivations to Consider Docker](resource/AdoptingContainersInTheEnterprise/MotivationsToConsiderDocker_800.png)
+![Motivations to Consider Docker](resource/AdoptingContainersInTheEnterprise/MotivationsToConsiderDocker.png)
 
 A development approach based on container images also helps encourage closer interaction between the development and operations teams, thereby encouraging DevOps.
 
@@ -49,7 +49,7 @@ There are a handful of strategies that enterprises commonly take when evaluating
    
 1. Standardize base images: It’s important for operations teams to formalize and release standard container images that all projects can use. These customized base images can be hosted on a private registry used by development teams when building projects. Changes to the standardized base images could mean new releases on the registry, which can then be transparently used in the development process. Enterprises are accustomed to hosting private repositories for firewall rules and other digital IT assets, so this should not be a strange adoption step for them.
 
-![Motivations to Consider Docker](resource/AdoptingContainersInTheEnterprise/PaaSMostLikelyToBeAutomated_800.png)
+![Motivations to Consider Docker](resource/AdoptingContainersInTheEnterprise/PaaSMostLikelyToBeAutomated.png)
 
 ## Key Issues Faced
 

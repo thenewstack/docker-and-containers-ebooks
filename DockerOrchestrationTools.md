@@ -79,7 +79,7 @@ With the explosive popularity of Docker and the early limitations of its built-i
 ### Docker Swarm
 [Docker Swarm](https://github.com/docker/swarm) was announced at DockerCon Europe in November 2014 as the official orchestration tool from Docker, Inc. The objective of Swarm is to use the same Docker API that works with the core Docker Engine. Instead of targeting an API endpoint representing one Docker Engine, Swarm transparently deals with an endpoint associated with a pool of Docker Engines. The key advantage of this approach is that the existing tools and APIs will continue to work with a cluster in the same way they work with single instance.
 
-![Docker Swarm: Swap, plug and play](resource/DockerOrchestrationTools/SwarmArch_800.png)
+![Docker Swarm: Swap, plug and play](resource/DockerOrchestrationTools/SwarmArch.png)
 
 Docker Swarm comes with several built-in scheduling strategies, giving users the ability to guide container placement so as to maximize or minimize the spread of containers across the cluster. Random placement is supported as well.
 
@@ -94,7 +94,7 @@ Swarm supports basic health monitoring, which prevents provisioning containers o
 ### Kubernetes
 [Kubernetes](http://kubernetes.io/) is one of the most popular orchestration tools of the container ecosystem. Coming from Google – a company that claims to deal with two billion containers every day – Kubernetes enjoys unique credibility. Within a few weeks of the announcement that Google had open-sourced the project, CoreOS, Red Hat, Microsoft, IBM, HP and Mesosphere pledged their support for it.
 
-![Kubernetes: The every man's Borg](resource/DockerOrchestrationTools/KubernetesArch_800.png)
+![Kubernetes: The every man's Borg](resource/DockerOrchestrationTools/KubernetesArch.png)
 
 Kubernetes’ architecture is based on a master server with multiple minions. The command line tool, called kubecfg, connects to the API endpoint of the master to manage and orchestrate the minions. Below is the definition of each component that runs within the Kubernetes environment.
 
@@ -125,7 +125,7 @@ Kubernetes supports user-implemented application health checks. These checks are
 ### Apache Mesos
 [Apache Mesos ](http://mesos.apache.org/)is an open source cluster manager that simplifies the complexity of running tasks on a shared pool of servers. Originally designed to support high-performance computing workloads, Mesos added support for Docker in the 0.20.0 release. With the 0.20.1 patch release, some of its limitations in managing containers were fixed.
 
-![Apache Mesos: The Swiss Army Knife of cluster managers](resource/DockerOrchestrationTools/MesosArch_800.png)
+![Apache Mesos: The Swiss Army Knife of cluster managers](resource/DockerOrchestrationTools/MesosArch.png)
 
 A typical Mesos cluster consists of one or more servers running the mesos-master and a cluster of servers running the mesos-slave component. Each slave is registered with the master to offer resources. The master interacts with deployed frameworks to delegate tasks to slaves. Below is an overview of Mesos’ architecture:
 
@@ -148,7 +148,7 @@ When Mesos is used in conjunction with Marathon, service discovery can be enable
 ### Fleet
 [Fleet](https://github.com/coreos/fleet) was introduced as a distributed init system for CoreOS. It unites [systemd](http://coreos.com/using-coreos/systemd), the standard Linux init system for handling the lifecycle of OS processes, and [etcd](https://github.com/coreos/etcd), a distributed key-value store for shared configuration and service discovery, into one distributed init system.
 
-![Fleet: Taking Systemd up to 11](resource/DockerOrchestrationTools/FleetArch_800.png)
+![Fleet: Taking Systemd up to 11](resource/DockerOrchestrationTools/FleetArch.png)
 
 Every machine in a Fleet cluster runs the ‘fleetd’ daemon, which encapsulates two roles — the engine and the agent. The engine is responsible for scheduling decisions while the agent executes the systemd units. An election process is used to promote a single node’s fleetd instance to master, thus activating its engine capabilities.
 
@@ -173,7 +173,7 @@ Developed by ClusterHQ, [Flocker](https://clusterhq.com/flocker/introduction/) a
 
 [Flocker](https://github.com/ClusterHQ/flocker) is essentially a volume and container management system built on top of the [ZFS](https://en.wikipedia.org/wiki/Zfs) file system. It aims to bring to Docker environments the live migration capabilities that helped make virtual machines attractive to the enterprise.
 
-![Flocker: Apps and data flocking together](resource/DockerOrchestrationTools/FlockerArch_800.png)
+![Flocker: Apps and data flocking together](resource/DockerOrchestrationTools/FlockerArch.png)
 
 Flocker has two key components:
 
@@ -191,7 +191,7 @@ An alternative approach for using Flocker with Docker recently became available 
 
 Though Flocker is still evolving, it has set out to solve a key problem faced by container users.
 
-![Comparing Container Orchestration Tools](resource/DockerOrchestrationTools/ComparingContainerOrchestrationTools_800.png)
+![Comparing Container Orchestration Tools](resource/DockerOrchestrationTools/ComparingContainerOrchestrationTools.png)
 
 ## Summary
 The Docker ecosystem is growing rapidly. From major infrastructure companies to PaaS vendors to early-stage startups, everyone is clamoring to stake out their place in the ecosystem. There are many contributors working on container orchestration tools, as these are essential for deploying real-world applications, and thus, driving the adoption of Docker. We attempted to highlight some of the key contributors building orchestration tools. By no means is this an exhaustive list, but it does cover the key players that are positively impacting the Docker ecosystem.

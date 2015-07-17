@@ -33,7 +33,7 @@ A number of architectural patterns exist that can be leveraged to build a solid 
 
 In their book “[The Art of Scalability](http://theartofscalability.com/),” Martin Abbott and Michael Fisher elaborated on the concept of the “[scale cube](http://microservices.io/articles/scalecube.html),” illustrating various ways to achieve scalability in a software system. The microservices pattern maps to the Y-axis of the cube, wherein functional decomposition is used to scale the system. Each service can then be further scaled by cloning (X-axis) or sharding (Z-axis).
 
-![The Scale Cube and Microservices: 3 Dimensions to Scaling](resource/FromMonolithToMicroservices/TheScaleCubeAndMicroservices_800.png)
+![The Scale Cube and Microservices: 3 Dimensions to Scaling](resource/FromMonolithToMicroservices/TheScaleCubeAndMicroservices.png)
 
 Alistair Cockburn introduced the “ports and adapters” pattern, also called [hexagonal architecture](http://alistair.cockburn.us/Hexagonal+architecture), in the context of building applications that can be tested in isolation. However, it has been increasingly used for building reusable microservices-based systems, [as advocated by](https://skillsmatter.com/skillscasts/5280-hexagonal-microservices) James Gardner and Vlad Mettler. A hexagonal architecture is an implementation of a pattern called [bounded context](http://martinfowler.com/bliki/BoundedContext.html), wherein the capabilities related to a specific business domain are insulated from any outside changes or effects.
 
@@ -47,7 +47,7 @@ Event-oriented patterns such as [event sourcing](http://martinfowler.com/eaaDev/
 
 This pattern can be extended to support [compensating](https://en.wikipedia.org/wiki/Compensating_transaction) operations by the microservice when dealing with eventual consistency. Chris Richardson [presented an implementation of this](http://www.slideshare.net/chris.e.richardson/building-and-deploying-microservices-with-event-sourcing-cqrs-and-docker-hacksummit-2014) in his talk at hack.summit() 2014 and shared example code [via Github](https://github.com/cer/event-sourcing-examples). Also worth exploring is Fred George’s [notion of ‘streams and rapids,’](https://vimeo.com/79866979) which uses asynchronous services and a high speed messaging bus to connect the microservices in an application.
 
-![Scaling With Microservices](resource/FromMonolithToMicroservices/ScalingWithMicroservices_800.png)
+![Scaling With Microservices](resource/FromMonolithToMicroservices/ScalingWithMicroservices.png)
 
 While architectures such as these are promising, it is important to remember that, during the transition from monolith to a collection of microservices, both systems will exist in parallel. To reduce the development and operational costs of the migration, the architectural and integration patterns employed by the microservices must be appropriate to the monolith’s architecture.
 
